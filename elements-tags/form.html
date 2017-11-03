@@ -1,0 +1,94 @@
+<!-- declaring doctype-->
+<!DOCTYPE html>
+<!-- declaring default html language english-->
+<html lang="en">
+    <!--page heading-->
+    <head>
+        <!--tile of the page-->
+        <title> Filling a form</title>
+    </head>
+    <!--page body-->
+    <body>
+        <!-- main article of the page begins-->
+        <article>
+            <!--header of form-->
+            <header>
+                <h1>Welcome to Applicant's form</h1>
+            </header>
+            <!--form section-->
+            <section>
+                <!--form filling-->
+                <form name="New Form">
+                    <!-- division to create a block level rendering for input first name-->
+                    <div>
+                        <!--label for first name-->
+                        <label for="FirstName">Applicant's First Name:</label>
+                        <!--input for first name-->
+                        <input type="text" id="FirstName" name="FirstName" placeholder="enter your first name" />
+                    </div>
+                    <!-- break to create space between glued input elements one below the other-->
+                    <br />
+                    <!--division to create block level rendering for input last name-->
+                    <div>
+                        <!--label for last name-->
+                        <label for="LastName">Applicant's Last Name:</label>
+                        <!--input for last name-->
+                        <input type="text" id="LastName" name="LastName" placeholder="enter your last name" />
+                    </div>
+                    <!-- break to create space between glued input elements one below the other-->
+                    <br />
+                    <!--division to create block level rendering for input phone number-->
+                    <div>
+                        <!--label for phone number -->
+                        <label for="PhoneNumber">Applicant's Phone Number:</label>
+                        <!--input for last name-->
+                        <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="enter your Phone Number" />
+                    </div>
+                    <!-- break to create space between glued input elements one below the other-->
+                    <br />
+                    <!--division to create block type rendering for gender-->
+                    <div>
+                        <!--label for gender-->
+                        <label for="gender">Applicant's gender:</label>
+                            <!--division for gender-->
+                            <div id="gender">
+                                <!--label for male-->
+                                <label for="Male">Male</label>
+                                <!--input for male-->
+                                <input type="radio" id="Male" name="gender" />
+                                <!--label for female-->
+                                <label for ="Female">Female</label>
+                                <!--input for female-->
+                                <input type="radio" id="Female" name="gender" />
+                            </div>
+                    </div>
+                    <br />
+                    <!--division for Senior Citizen-->
+                    <div>
+                        <!--label for Senior Citizen-->
+                        <label for ="SeniorCitizen">Are you a Senior Citizen:</label>
+                        <!--input for Senior Citizen-->
+                        <input type="checkbox" id="SeniorCitizen" name="SeniorCitizen" />
+                    </div>
+                    <br />
+                    <!--division for button-->
+                    <div>
+                        <!--button tag for text to be in button-->
+                        <button type="submit" id="submit" name="submit">
+                            <!--to write text in button, size of button dpends on the size of word since span is inline rendering-->
+                            <span>submit</span>
+                        </button>
+                        <!--button tag for text to be in button-->
+                        <button type="reset" id="reset" name="reset">
+                            <!--to write text in button, size of button dpends on the size of word since span is inline rendering-->
+                            <span>cancel</span>
+                        </button>
+                    </div>
+
+                </form>
+            </section>
+        </article>
+    </body>
+
+
+</html>
